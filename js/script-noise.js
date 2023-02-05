@@ -2,7 +2,7 @@
 const canvas = document.getElementById("canvas");
 
 // set opacity of canvas css to .5
-canvas.style.opacity = 0.2;
+canvas.style.opacity = 0.5;
 let scale = 1;
 
 const ctx = canvas.getContext("2d");

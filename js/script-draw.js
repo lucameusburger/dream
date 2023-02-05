@@ -13,15 +13,15 @@ const drawing = false;
 ctx.width = width;
 ctx.height = height;
 
-resize();
-window.onresize = resize;
+// resize();
+// window.onresize = resize;
 
-function resize() {
-  canvas.width = window.innerWidth * window.devicePixelRatio;
-  canvas.height = window.innerHeight * window.devicePixelRatio;
-  canvas.style.width = window.innerWidth + "px";
-  canvas.style.height = window.innerHeight + "px";
-}
+// function resize() {
+//   canvas.width = window.innerWidth * window.devicePixelRatio;
+//   canvas.height = window.innerHeight * window.devicePixelRatio;
+//   canvas.style.width = window.innerWidth + "px";
+//   canvas.style.height = window.innerHeight + "px";
+// }
 
 class Root {
   constructor(x, y, color) {

@@ -27,7 +27,7 @@ body {
     width: calc(120%);
     height: calc(120%);
     background: #f6f6f6;
-    filter: blur(1px);
+    filter: blur(8px);
     cursor: none;
 }
 
